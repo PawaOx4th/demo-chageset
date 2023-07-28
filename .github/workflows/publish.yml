@@ -17,27 +17,27 @@ jobs:
       pull-requests: write
       issues: read
     steps:
-      - name: checkout
+      - name: 🦄 checkout
         uses: actions/checkout@v3
 
-      - name: pnpm
+      - name: 🚨 pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8
 
-      - name: node
+      - name: 🟢 node
         uses: actions/setup-node@v3
         with:
           node-version: 20.5.x
           cache: "pnpm"
 
-      - name: install
+      - name: 📥 install
         run: pnpm install --frozen-lockfile
 
-      - name: build
+      - name: ⏳ build
         run: pnpm build
 
-      - name: Create Release Pull Request or Publish
+      - name: 🪄 Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
         with:
