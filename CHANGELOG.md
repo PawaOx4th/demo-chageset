@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- 17fd03b: export module
+
+## 0.0.2
+
+### Patch Changes
+
 - b9461ef: fix: index.d.ts
 
 ## 0.0.1
