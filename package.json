@@ -17,7 +17,7 @@
   "types": "./main.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && tsup src/main.ts --format esm,cjs --dts"
+    "build": "tsc && tsup"
   },
   "devDependencies": {
     "tsup": "^7.1.0",
