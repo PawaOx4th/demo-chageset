@@ -22,7 +22,7 @@
   },
   "main": "./dist/main.cjs",
   "module": "./dist/main.js",
-  "types": "./main.d.ts",
+  "types": "./dist/main.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && tsup",
