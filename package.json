@@ -7,12 +7,19 @@
   "author": "pawaox4th@gmail.com",
   "license": "MIT",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist",
     "index.d.ts"
   ],
+  "exports": {
+    ".": {
+      "require": "./dist/main.cjs",
+      "import": "./dist/main.js",
+      "types": "./dist/main.d.ts"
+    }
+  },
   "main": "./dist/main.cjs",
   "module": "./dist/main.js",
   "types": "./main.d.ts",
