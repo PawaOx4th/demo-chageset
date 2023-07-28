@@ -7,17 +7,12 @@
     "dist",
     "index.d.ts"
   ],
-  "main": "./dist/counter.umd.cjs",
-  "module": "./dist/counter.js",
-  "types": "./index.d.ts",
-  "exports": {
-    "types": "./index.d.ts",
-    "import": "./dist/counter.js",
-    "require": "./dist/counter.umd.cjs"
-  },
+  "main": "./dist/main.cjs",
+  "module": "./dist/main.js",
+  "types": "./main.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsup src/main.ts --format esm,cjs --dts"
+    "build": "tsc && tsup src/main.ts --format esm,cjs --dts"
   },
   "devDependencies": {
     "tsup": "^7.1.0",
