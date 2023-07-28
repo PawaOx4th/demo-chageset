@@ -1,5 +1,11 @@
 # @pawaox4th/demo-changeset
 
+## 0.0.3
+
+### Patch Changes
+
+- 7cfb7b9: export type
+
 ## 0.0.2
 
 ### Patch Changes
